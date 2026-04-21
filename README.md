@@ -1,9 +1,9 @@
 # c++_dsa_implementations
 C++ implementations of all data strucutes and algorithms I have learned in intro CS and DSA courses. 
 
-This project is both to review and better solidfy my knowledge of data strucutues and algorithms from previous courses, but also to help me learn C++.
+This project is both to review and solidfy my knowledge of data strucutues and algorithms from previous courses, and also to help me learn C++.
 
-My goal is to make this into a libary at somepoint like that of C++'s containers or Java's colelctions, but I am not knowledge enough in C++ to do that yet. I will likely update the structue of this project to better suit that purpose later but for now I will just be implementing indvidual `.cpp` files for each implementation.
+My goal is to make this into a libary at somepoint like that of C++'s containers or Java's colelctions, but I am not knowledge enough in C++ to do that. I will likely update the structue of this project to better suit that purpose, but for now I will just be creating indvidual `.cpp` files for each implementation.
 
 I will seperate my implementations into:
 - Algorithms
@@ -12,40 +12,39 @@ I will seperate my implementations into:
 
 
 # Planned Implementations
-Algorithms:
+**Algorithms**:
+/Sort:
+  - BubbleSort
+  - InsertionSort
+  - SelectionSort
+  - MergeSort
+  - QuickSort
+  - HeapSort 
 
-    Sort:
-      - BubbleSort
-      - InsertionSort
-      - SelectionSort
-      - MergeSort
-      - QuickSort
-      - HeapSort 
+/Search:
+  - LinearSearch
+  - BinarySearch
 
-    Search:
-      - LinearSearch
-      - BinarySearch
+/Graph:
+  - DepthFirstSearch
+  - BreadthFirstSearch
+  - DijkstraShorestPath
+  - AStarShortestPath
+  - BellmanFordShortestPaths
+  - FloydWarshallAllShortestPaths
+  - KruskalsMinSpanTree
+  - PrimsMinSpanTree
+  - TopologicalSort
 
-    Graph:
-      - DepthFirstSearch
-      - BreadthFirstSearch
-      - DijkstraShorestPath
-      - AStarShortestPath
-      - BellmanFordShortestPaths
-      - FloydWarshallAllShortestPaths
-      - KruskalsMinSpanTree
-      - PrimsMinSpanTree
-      - TopologicalSort
+/String:
+  - NaiveStringMatching
+  - KMPStringMatching 
 
-    String:
-      - NaiveStringMatching
-      - KMPStringMatching 
+/Misc:
+  - DiscreteKnapsack
+  - ContiniousKnapsack
 
-    Misc:
-      - DiscreteKnapsack
-      - ContiniousKnapsack
-
-DataStructues:
+**DataStructues**:
   - ArrayList
   - LinkedList
   - BinarySearchTree
@@ -57,7 +56,7 @@ DataStructues:
   - SuffixTree
   - BTree 
 
-AbstractDataTypes:   
+**AbstractDataTypes**:   
   - List
   - Queue
   - Stack
